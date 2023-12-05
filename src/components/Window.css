@@ -1,0 +1,11 @@
+.ant-drawer-mask {
+  width: 100vw;
+}
+
+.ant-drawer-body {
+  width: 100%;
+}
+.ant-drawer-wrapper-body {
+  max-height: 98vh;
+  overflow-y: hidden;
+}

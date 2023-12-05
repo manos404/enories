@@ -1,0 +1,51 @@
+.leaflet-container {
+  height: 100vh;
+  width: 100vw;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.leaflet-control-zoom {
+  width: auto;
+}
+
+.leaflet-control-attribution {
+  width: 225px;
+}
+
+.leaflet-draw-toolbar.leaflet-bar.leaflet-draw-toolbar-top {
+  width:35px;
+}
+
+.leaflet-draw.leaflet-control {
+  width: 40px;
+}
+
+.leaflet-draw-toolbar.leaflet-bar {
+  width: 30px;
+}
+
+.leaflet-draw-actions.leaflet-draw-actions-bottom {
+  width: 100px;
+}
+
+.leaflet-popup-content {
+  width: auto;
+}
+.leaflet-popup-content-wrapper {
+  width: auto;
+}
+
+.leaflet-touch .leaflet-control-layers-toggle {
+  width: 32px;
+  height: 32px;
+}
+
+.leaflet-draw.leaflet-control {
+  top: 120px;
+}
+
+.leaflet-draw {
+width: 50px;
+
+}

@@ -1,0 +1,13 @@
+.ant-switch-handle{
+    margin-top: -0.1px; /* Ρύθμιση της θέσης του handle κάτω */
+  }
+
+  .leaflet-popup {
+     
+  min-width: 10cm;
+  }
+ 
+  .ant-btn-clicked {
+    transform: none;
+    animation: none;
+  }
