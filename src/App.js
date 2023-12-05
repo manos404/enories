@@ -25,7 +25,7 @@ const App = () => {
       //setRender(0);//////////////////
       const sendRequest = async () => {
         const response = await fetch(
-          process.env.REACT_APP_BACKEND_URL + `/data`
+          `https://enories-backend.onrender.com/api/data`
         );
         const responseData = await response.json();
         setData(responseData);
