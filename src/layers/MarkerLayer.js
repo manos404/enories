@@ -27,7 +27,7 @@ export const MarkerLayer = (props) => {
 
     const onDelete = async () => {
       try {
-        props.setRender(null);
+       
         const response = await fetch(
           process.env.REACT_APP_BACKEND_URL + `/marker/${id}`,
           {
@@ -42,7 +42,7 @@ export const MarkerLayer = (props) => {
           throw new Error(response.message);
         }
         console.log(responseData);
-
+ props.setRender(null);
         //props.setOpenLogIn(false)
       } catch (err) {
         console.log(err);
