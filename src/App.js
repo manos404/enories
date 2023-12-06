@@ -22,7 +22,7 @@ const App = () => {
 
   useEffect(() => {
     try {
-      //setRender(0);//////////////////
+      setRender(0);//////////////////
       const sendRequest = async () => {
         const response = await fetch(
           `https://enories-backend.onrender.com/api/data`
