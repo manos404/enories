@@ -42,7 +42,7 @@ export const MarkerLayer = (props) => {
           throw new Error(response.message);
         }
         console.log(responseData);
- props.setRender(null);
+        props.setRender(1);
         //props.setOpenLogIn(false)
       } catch (err) {
         console.log(err);
